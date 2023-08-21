@@ -1,0 +1,42 @@
+.container {
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    font-family: serif;
+    font-size: large;
+}
+.container h1{
+    text-align: justify;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+.container p{
+    
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+@media (min-width: 640px) {
+    .container {
+        max-width: 640px;
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+@media (min-width: 1536px) {
+    .container {
+        max-width: 1536px;
+    }
+}
